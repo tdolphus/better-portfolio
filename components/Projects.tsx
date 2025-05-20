@@ -46,7 +46,7 @@ export const Projects = () => {
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
               activeFilter === item
                 ? 'bg-accent text-white'
-                : 'bg-tertiary hover:text-white'
+                : ' hover:text-white'
             }`}
             onClick={() => handleFilterClick(item)}
           >
@@ -77,7 +77,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
   return (
     <motion.div
       variants={fadeIn('up', 'spring', index * 0.15, 0.5)}
-      className="bg-tertiary p-5 rounded-2xl sm:w-full w-full flex flex-col h-full shadow-card hover:shadow-lg transition-shadow"
+      className=" p-5 rounded-2xl sm:w-full w-full flex flex-col h-full shadow-card hover:shadow-lg transition-shadow"
     >
       <div className="relative w-full h-[230px] overflow-hidden rounded-lg">
         <img

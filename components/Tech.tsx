@@ -25,7 +25,7 @@ export const Tech = () => {
             variants={fadeIn('up', 'spring', index * 0.08, 0.5)}
             className="w-24 h-24 flex flex-col items-center justify-center group"
           >
-            <div className="w-16 h-16 rounded-full bg-tertiary flex items-center justify-center mb-2 group-hover:bg-black-100 transition-colors p-2">
+            <div className="w-16 h-16 rounded-full  flex items-center justify-center mb-2 group-hover:bg-black-100 transition-colors p-2">
               <img
                 src={technology.icon}
                 alt={technology.name}

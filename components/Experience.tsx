@@ -41,11 +41,11 @@ const ExperienceCard = ({ experience, index }: { experience: Experience; index: 
       variants={fadeIn('up', 'spring', index * 0.15, 0.75)}
       className="relative"
     >
-      <div className="absolute -left-[48px] -top-2 rounded-full w-6 h-6 bg-tertiary border-2 border-accent flex items-center justify-center">
+      <div className="absolute -left-[48px] -top-2 rounded-full w-6 h-6  border-2 border-accent flex items-center justify-center">
         <CircleIcon className="w-3 h-3 text-accent" />
       </div>
       
-      <div className="bg-tertiary p-6 rounded-2xl shadow-card">
+      <div className=" p-6 rounded-2xl shadow-card">
         <div className="flex items-center gap-4 mb-4">
           <div className={`w-14 h-14 rounded-full flex items-center justify-center ${experience.iconBg}`}>
             <img

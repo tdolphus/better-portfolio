@@ -101,6 +101,6 @@
     }
     
     .contact-input {
-      @apply bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium;
+      @apply  py-4 px-6  text-white rounded-lg outline-none border-none font-medium;
     }
   }

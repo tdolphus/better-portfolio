@@ -55,7 +55,7 @@ export const Contact = () => {
         >
           <div className="flex flex-col items-start gap-2">
             <div className="flex gap-4 items-center">
-              <div className="w-12 h-12 rounded-full bg-tertiary flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full  flex items-center justify-center">
                 <MapPin className="text-accent w-6 h-6" />
               </div>
               <div>
@@ -67,7 +67,7 @@ export const Contact = () => {
 
           <div className="flex flex-col items-start gap-2">
             <div className="flex gap-4 items-center">
-              <div className="w-12 h-12 rounded-full bg-tertiary flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full  flex items-center justify-center">
                 <Mail className="text-accent w-6 h-6" />
               </div>
               <div>
@@ -79,7 +79,7 @@ export const Contact = () => {
 
           <div className="flex flex-col items-start gap-2">
             <div className="flex gap-4 items-center">
-              <div className="w-12 h-12 rounded-full bg-tertiary flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full  flex items-center justify-center">
                 <Phone className="text-accent w-6 h-6" />
               </div>
               <div>
@@ -95,7 +95,7 @@ export const Contact = () => {
           variants={fadeIn('left', 'spring', 0.2, 0.75)}
           className="md:col-span-3 green-pink-gradient p-[1px] rounded-2xl shadow-card"
         >
-          <div className="bg-tertiary rounded-2xl p-8">
+          <div className=" rounded-2xl p-8">
             <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="text-white font-medium mb-2 block">Your Name</label>
