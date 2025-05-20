@@ -93,7 +93,7 @@ export const Contact = () => {
         {/* Contact Form */}
         <motion.div
           variants={fadeIn('left', 'spring', 0.2, 0.75)}
-          className="md:col-span-3 green-pink-gradient p-[1px] rounded-2xl shadow-card"
+          className="md:col-span-3 green-pink-gradient p-px rounded-2xl shadow-card"
         >
           <div className=" rounded-2xl p-8">
             <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
@@ -143,7 +143,7 @@ export const Contact = () => {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 type="submit"
-                className={`bg-gradient-to-r from-purple-600 to-accent py-3 px-8 rounded-xl w-fit text-white font-bold shadow-md flex items-center gap-2 ${
+                className={`bg-linear-to-r from-purple-600 to-accent py-3 px-8 rounded-xl w-fit text-white font-bold shadow-md flex items-center gap-2 ${
                   loading ? 'opacity-70 cursor-not-allowed' : ''
                 }`}
                 disabled={loading}
