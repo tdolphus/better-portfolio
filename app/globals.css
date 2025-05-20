@@ -93,11 +93,11 @@
     }
     
     .section-subheading {
-      @apply text-secondary text-lg mt-4 max-w-3xl;
+      @apply text-lg mt-4 max-w-3xl;
     }
     
     .nav-link {
-      @apply cursor-pointer text-base font-medium text-secondary hover:text-white transition-colors;
+      @apply cursor-pointer text-base font-medium hover:text-white transition-colors;
     }
     
     .contact-input {

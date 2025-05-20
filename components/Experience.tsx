@@ -56,7 +56,7 @@ const ExperienceCard = ({ experience, index }: { experience: Experience; index: 
           </div>
           <div>
             <h3 className="text-white text-[22px] font-bold">{experience.title}</h3>
-            <div className="flex items-center text-secondary gap-1">
+            <div className="flex items-center gap-1">
               <Building size={16} />
               <p className="text-[16px]">{experience.company_name}</p>
             </div>

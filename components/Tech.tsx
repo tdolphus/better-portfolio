@@ -32,7 +32,7 @@ export const Tech = () => {
                 className="w-10 h-10 object-contain"
               />
             </div>
-            <p className="text-sm text-secondary group-hover:text-accent transition-colors">{technology.name}</p>
+            <p className="text-sm group-hover:text-accent transition-colors">{technology.name}</p>
           </motion.div>
         ))}
       </div>

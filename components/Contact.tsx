@@ -164,7 +164,7 @@ export const Contact = () => {
         </motion.div>
       </div>
 
-      <div className="w-full flex justify-center mt-16 text-secondary text-sm">
+      <div className="w-full flex justify-center mt-16 text-sm">
         <p>© 2025 John Doe. All Rights Reserved.</p>
       </div>
     </div>
